@@ -9,12 +9,12 @@ Video Demo (YT link):  <URL HERE>
 
 ### How it works
 
-##### Structure
+#### Structure
 The structure of the program is the following: 4 functions and the main function.
 
 The idea is that the main function prints a welcome message, listing out all possible commands (getting the list of currencies available for conversion, getting the convert rate between two currencies and converting a specific amount from one currency to the other) and then calling each function based on the command given.
 
-##### The functions
+#### The functions
 Before the functions there is a section where I have imported the libraries:
  - requests, to be able to access the information in the API
  - pprint, specifically PrettyPrinter to format the JSON to make it more readable
