@@ -28,6 +28,21 @@ What I wanted to implement with this function was to get from the API the list o
 
 The second function is "print_currency". 
 It takes in the "currency" argument, passed by the req_currency. 
-It takes and lists 
+It takes and lists out to the user all currencies by displaying their id, name and symbol. Some currencies lack the last one so the default one is none. 
 
+The third function is "get_rate". 
+It takes in two arguments, called "currency1" and "currency2", given from the main function as user input (in the main function it gets stripped of eventual excess characters and is converted to uppercase in case the user didn't write it correctly).
+It looks in the JSON for the rate and then returns the rate itself as a float after displaying the result for the user.
 
+The last function is "convert". 
+It takes in three arguments: "currency1", "currency2" and "amount", given from the main function as user input. 
+It calls the "get_rate" function to get the conversion rate and then multiplies it by the amount given by the user, after checking if the amount is valid. 
+It returns the converted amount after displaying a result message for the user. 
+
+The main function displays a quick welcome message, listing out all possible commands of the program. Then gets the user's input and calls the various functions based on the commands inputted. The command "q" quits the program and the main function checks if a command is valid or not, displaying a message if invalid. 
+
+### Testing
+It's included in the repository a test_project.py file that imports the functions "get_rate" and "convert" to then be tested by the respective functions test_get_rate and test_covert. 
+
+## Thank you for reading!
+Seph
