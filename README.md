@@ -2,7 +2,7 @@
 
 ### Basic Info
 
-Video Demo (YT link):  <URL HERE>
+Video Demo (YT link): https://youtu.be/wBecOf98JOI
 - Quick description: a currency converter based on free API from Free Curr Conv.
 - Course: CS50 Python
 - Motivation: I wanted to create something that tested what I had learned in the course by adding an external API and multiple functions while still meeting the requirements for the final project. 
